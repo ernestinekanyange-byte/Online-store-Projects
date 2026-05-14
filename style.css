@@ -7,6 +7,20 @@
     color: white;
 }
 
+.Headings .links ul {
+    display: flex;
+    gap: 45px;
+}
+
+.Headings .links a {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    gap: 35px;
+    text-decoration: none;
+    display: flex;
+}
+
 h1 {
     font-size: 100px;
     font-weight: bold;
@@ -30,11 +44,12 @@ h1 {
     gap: 20px;
     max-width: 50%;
     width: 20px;
+    
 ;
 }
 
 .product{
-   background-color: white;
+   background-color:rosybrown;
     border: 2px solid #dcdcdc;
     border-radius: 15px;
     padding: 15px;
@@ -55,14 +70,14 @@ h1 {
 }
 #product-price {
     font-size: 40px;
-    color: #f0a500;
+    color:darkcyan;
     font-weight: 600;
     padding: 0 16px 16px 16px;
     text-align: center;
 }
 
 button{
-    background-color: green;
+    background-color: darkolivegreen;
     color: #dcdcdc;
     border: 8px;
     align-items: center;    
@@ -73,7 +88,7 @@ button{
 
 .product img  {
     width: 500px;
-    height:fit-content;
+    height: 500px;
     display:flex;
     gap:10px;
     flex-wrap: wrap;
@@ -88,9 +103,15 @@ button{
     padding: 10px;
     font-size: 20px;
     border: 2px solid #dcdcdc;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 300px;
     margin-left: 20px;
 }
 
+.menu{
+    display: none;
+    font-size: 700px;
+    cursor: pointer;
+    color: white;
+}
 

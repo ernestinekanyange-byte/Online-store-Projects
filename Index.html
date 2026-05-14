@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <title> ISIMBI ARTROOM</title>
-        <input type ="text" placeholder="Search for products..." id ="search-bar">
+        <title> ISIMBI ARTROOM </title>
         <link  rel ="stylesheet" href="style.css" >
+    
     </head>
     <body> 
+        <header> 
+            
         <div class= "Headings" >
-        <h1> Our online store </h1>
-        <ul>  Home </ul>
-        <ul> New arrivals </ul>
-       <ul>  Best sellers </ul>
-        <ul> sale</ul> 
-    
+            <img rel="icon" src="Image/logo.png"  type="image/png">
+
+            <div class="logo">
+                <h1> ISIMBI ARTROOM </h1>
+            </div>
+            <input type ="text" placeholder="Search for products..." id ="search-bar">
+
+            <div class="links">
+                <ul>
+                    <li> <a href="https://www.pinterest.com/business/hub/"> Home </a></li>
+                    <li> <a href="https://www.pinterest.com/search/pins/?q=mirrors&rs=typed"> arrivals </a></li>
+                    <li> <a href=""> sales </a></li>
+                    <li> <a href="">designs </a></li>
+                </ul>
+            </div>
         </div>
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    
+    <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</div>
+
+             
+    </header>
+    
         <div  class="Images">
         
     
@@ -62,15 +88,10 @@
 
 
     </div>
-        
-
-        
- 
-
-    
-       <footer> 
+        <footer> 
             <p> @ 2023 Our  Online Store. All rights reserved  </p>
         </footer>
+    
   
         
     </body>
