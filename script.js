@@ -45,7 +45,7 @@ const buttons = document.querySelectorAll(".button");
 
 buttons.forEach(function(button){
 
-    button.addEventListener("click", function(){
+button.addEventListener("click", function(){
 button.textContent = " :) added";
 button.style.backgroundColor = "orange";
 button.style.color = "white";
